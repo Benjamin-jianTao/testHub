@@ -1,0 +1,2 @@
+document.body.scrollTop || document.documentElement.scrollTop;-----浏览器兼容性，
+firfox-chrom  使用document.body.scrollTop IE document.documentElement.scrollTop;

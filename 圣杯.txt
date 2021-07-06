@@ -1,0 +1,37 @@
+.parent {
+	
+}
+
+.middle,.left,.right {
+	height:300px;
+	float:left;
+}
+
+.left,.right {
+	width:300px;
+}
+
+.middle {
+	background-color:#0078D7;
+	margin-left:300px;
+	margin-right:300px;
+}
+
+.left {
+	background-color:#FF0808;
+	margin-left:-100%;
+	position:relative;
+	left:-300px;
+}
+
+.right {
+	background-color:#E62ACA;
+	margin-right:-300px;
+	position:relative;
+	right:300px;
+}
+<div class="parent">
+	<div class="middle"></div>
+	<div class="left"></div>
+	<div class="right"></div>
+</div>

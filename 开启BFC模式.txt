@@ -1,0 +1,4 @@
+float：left|right
+position：absolute|fixed
+display: table-cell|table-caption|inline-block
+overflow: hidden|scroll|auto

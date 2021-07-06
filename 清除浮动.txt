@@ -1,0 +1,9 @@
+xxx{
+	*zoom:1;//在 IE6 中还需要触发 hasLayout ，为父元素设置容器宽高或设置 zoom:1
+}
+//通过CSS伪元素在容器的内部元素最后添加了一个看不见的空格""，并且赋予clear属性来清除浮动
+XXX:after{
+	content:"";
+	display:table;
+	clear:both;
+}

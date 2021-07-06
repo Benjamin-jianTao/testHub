@@ -1,0 +1,3 @@
+IE6 在内容溢出的时候，盒子的宽高会被撑大。  file:///E:/JAVASCRIPT/overflow/overflow-xAndoverflow-y.html
+
+IE6 margin值是双倍。

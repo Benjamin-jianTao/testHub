@@ -1,0 +1,9 @@
+矩形 ： cxt.rect(x,y,width,height,);----只是绘制矩形的路径，后面还需要用cxt.stroke() 把矩形绘制出来。
+	cxt.fillRect(x,y,width,height);----不仅绘制了矩形的路径和填色，还把矩形绘制出来。
+	      cxt.storkeRect(x,y,width,height);----不仅绘制矩形的路径和设置的线条的颜色，还把矩形绘制出来。
+二次贝塞尔曲线
+cxt.moveTo((x0,y0);x0,y0是指贝塞尔曲线的起点
+cxt.quadraticCurveTo(x1,y1,x2,y2); x1,y1是控制点。x2,y2是指贝塞尔曲线的终点。
+三次贝塞尔曲线 
+cxt.moveTo(x0,y0);x0,y0是指贝塞尔曲线的起点
+cxt.bezierCurveTo(x1,y1,x2,y2,x3,y3); x1,y1,x2,y2是控制点。x3,y3是指贝塞尔曲线的终点。

@@ -1,0 +1,6 @@
+获取子节点
+children 不会获取空白节点/文本节点 ****推荐 IE6会获取注释节点。
+childNodes 会获取空白节点/文本节点
+
+firstChild 在IE6-7-8 不会获取到空白节点/文本节点,在fiefox/Chrome会获取到空白节点/文本节点；
+firstElementChild 不会获取到空白节点/文本节点，获取到父元素的第一个子元素节点，IE6-7-8不兼容

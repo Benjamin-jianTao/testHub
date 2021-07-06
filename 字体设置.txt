@@ -1,0 +1,13 @@
+https://www.cnblogs.com/ypppt/p/13326266.html
+body {
+    font-family: tahoma, arial, 'Hiragino Sans GB', '\5b8b\4f53', sans-serif;
+}
+
+别看短短 5 个字体名，其实其中门道很深。解释一下：
+
+使用 tahoma 作为首选的西文字体，小字号下结构清晰端整、阅读辨识容易；
+用户电脑未预装 tohoma，则选择 arial 作为替代的西文字体，覆盖 windows 和 MAC OS；
+Hiragino Sans GB 为冬青黑体，首选的中文字体，保证了 MAC 用户的观看体验；
+Windows 下没有预装冬青黑体，则使用 '\5b8b\4f53' 宋体为替代的中文字体方案，小字号下有着不错的效果；
+最后使用无衬线系列字体 sans-serif 结尾，保证旧版本操作系统用户能选中一款电脑预装的无衬线字体，向下兼容。
+嗯，其实上面的 font-family 就是淘宝首页 body 的字体定义，非常的规范，每一个字体的定义都有它的意义。

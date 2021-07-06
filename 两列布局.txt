@@ -1,0 +1,12 @@
+float + overflow 两列布局（保证盒子里内容无溢出的情况下使用）
+<div class="left"></div> css: left{float:left;width:固定值;}
+<div class="right"></div>css:right{overflow:hidden/auto/scroll}
+
+table +table- cell +table-cell
+<div class="parent"> css:display:table,table-layout:fixed,width:100%(自适应);
+	<div class="left"></div> css:display:table-cell,width:固定值。
+	<div class="right"></div> css:display:table-cell,width:100%(自适应);
+</div> 
+
+
+

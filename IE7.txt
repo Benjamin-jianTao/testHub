@@ -1,0 +1,4 @@
+IE7 button按钮值,随着button内容的增长，button两边的padding就越宽，解决方法E:\JAVASCRIPT\overflow\IE7-button坑.html
+
+IE7 消除水平方向的滚动条，当子元素设置width:100%，height大于父元素的时候，IE7不仅出现垂直的滚动条，还出现水平方向的滚动条。
+解决方法：file:///E:/JAVASCRIPT/overflow/IE7-IE7-清除水平滚动条.html.html

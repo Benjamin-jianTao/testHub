@@ -1,0 +1,15 @@
+IE6--- hack   * .class{}与 _.class{}与 * html .class{}
+IE7--- hack   * .class{}与 !important与 *+html .class{}
+IE8--- hack   0   background-color:red 0;
+IE9--- hack   9   background-color:red 9;
+
+_color:#00F;IE6支持
+*color:#00F;IE7支持。
+color:#00F\0; IE8支持。
+color:#00F\9;  所有IE浏览器（IE6+）支持	。
+
+注意
+不管是什么方法，书写的顺序都是firefox的写在前面，IE7的写在中间，IE6的写在最后面
+background-color:#000F;
+*background-color:#000F;
+_background-color:#000F;

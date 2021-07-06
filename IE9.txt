@@ -1,0 +1,5 @@
+IE9以下的IE浏览器不支持getElementBysClassName（）；file:///E:/JAVASCRIPT/overflow/overflow-xAndoverflow-y.html
+
+calc 动态计算.IE9+浏览器支持此方法。*计算符号前后保留一个空格。
+width:calc(100% - 5px*2 - 2px*2);
+height:calc(100% - 5px*2 - 2px*2);

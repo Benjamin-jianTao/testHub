@@ -1,0 +1,4 @@
+element.setAttribute(attributename,attributevalue)
+attributename,必须。你要添加的属性名称。 
+attributevalue,必须。你要添加的属性值。
+IE8 及更早 IE 版本不支持该方法。

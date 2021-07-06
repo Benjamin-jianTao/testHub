@@ -1,0 +1,47 @@
+水平居中
+行内：
+	text-align:center;
+
+块状：
+定宽块：
+
+	margin: 0 auto ;
+
+不定宽块状：
+1、
+       <style>
+     	table {margin:0 auto};
+      </style>
+        <table>
+	<tr>
+	<td>需要水平居中的元素</td>
+	</tr>
+       </table>
+
+2、display:inline-block; 父元素设置：text-align:center;
+
+3、 <style>
+       父元素{
+	float:left;
+	position:relative;
+	left:50%
+	}
+      子元素{
+	position:relative;
+	left:-50%;
+	}	
+      </style>
+
+垂直居中
+
+1、高度确定的单行文本：
+	line-height:父元素高度；
+2、高度确定的多行文本：
+      (1)<table><tr><td>需要垂直居中的元素</td></tr></table>
+	<td>元素默认设置  vertical-align：middle;
+      (2)display:table-cell; 激活 vertical-align:middle属性;（IE6、IE7 不支持）
+3、css 中有一个用于竖直居中的属性 vertical-align，在父元素设置此样式时，会对inline-block类型的子元素都有用。
+	
+
+
+

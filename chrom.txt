@@ -1,0 +1,2 @@
+over-flow +padding-bottom 在chrom浏览器不会缺失padding-bottom，在其他浏览器会缺失
+file:///E:/JAVASCRIPT/overflow/chrom-paddingbottomAndoverflow.html
