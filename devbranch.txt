@@ -1,3 +1,8 @@
 新 分支内容 提交
+<<<<<<< HEAD
 创建feture1;
 main 分支提交
+=======
+创建feture1;
+main 分支提交
+>>>>>>> feature1
